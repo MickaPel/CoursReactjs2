@@ -1,0 +1,25 @@
+
+
+:root {
+  --main: hsla(196, 64%, 37%, 1);
+  --secondary: hsla(174, 79%, 43%, 1);
+  --warning: hsla(37, 100%, 73%, 1);
+  --light: hsla(40, 88%, 97%, 1);
+  --error: hsla(358, 99%, 71%, 1);
+  --dark: hsl(197, 62%, 11%);
+
+  --width: 90%;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(../assets/images/pattern.webp);
+  background-repeat: repeat;
+}

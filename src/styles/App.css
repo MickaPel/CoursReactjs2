@@ -1,0 +1,41 @@
+.App {
+  text-align: left;
+  padding: 30px;
+  width: var(--width);
+  margin: auto;
+  background-color: var(--light);
+
+}
+
+.monspan {
+  color: green;
+}
+
+h1 {
+  color: var(--main);
+}
+
+h2 {
+  color: var(--error);
+}
+
+.card  {
+  background-color: var(--warning);
+  color: var(--dark);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+button {
+  background-color: var(--dark);
+  color: var(--light);
+  border: solid 2px transparent;
+  padding: 10px;
+  border-radius: 5px;
+}

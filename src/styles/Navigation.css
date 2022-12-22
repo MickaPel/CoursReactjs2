@@ -1,0 +1,30 @@
+nav {
+    width: var(--width);
+    margin: auto;
+}
+
+/***************************************
+Selectionner toutes les balise ul qui se trouvent à l'interieur de nav
+**************************************/
+nav ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+    list-style: none;
+    padding-left: 0;
+    gap: 20px;
+}
+
+a:link, a:visited {
+    color: var(--dark);
+    font-family: "Montserrat Medium", sans-serif;
+    transition: .5s;
+}
+
+a.active {
+    color: var(--secondary);
+}
+
+.active {
+    color: darkorange;
+}

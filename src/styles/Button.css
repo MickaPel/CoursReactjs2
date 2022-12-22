@@ -1,0 +1,36 @@
+.bounce {
+    border-radius: 50px;
+    animation: loading linear infinite 800ms;
+    display: block;
+    margin: auto;
+}
+
+button {
+    box-sizing: content-box;
+    min-width: 50px;
+    min-height: 30px;
+}
+
+
+@keyframes loading {
+    from {
+        width: 5px;
+        height: 5px;
+        background-color: var(--light);
+    }
+    50% {
+        width: 15px;
+        height: 15px;
+    }
+    to {
+        width: 5px;
+        height: 5px;
+        background-color: var(--light);
+    }
+}
+
+button:disabled {
+    color: var(--dark);
+    opacity: 70%;
+    cursor: not-allowed;
+}
